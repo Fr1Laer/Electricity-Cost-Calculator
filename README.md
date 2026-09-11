@@ -3,9 +3,9 @@
 Lihtne kalkulaator seadme elektrikulu arvutamiseks 30 päeva jooksul
 
 ## Sisend
-Seadme võimsus (W) - seadme võimsus vattides.
+Seadme võimsus (W) - seadme võimsus vattides
 
-Töötunnid päevas - mitu tundi seade töötab ööpäevas.
+Töötunnid päevas - mitu tundi seade töötab ööpäevas
 
 Elektri hind (€/kWh) - ühe kilovatt-tunni hind eurodes
 
