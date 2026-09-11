@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ElectricityCost.Core/ElectricityCost.Core.csproj" />
+  <Project Path="ElectricityCost.WpfApp/ElectricityCost.WpfApp.csproj" />
+</Solution>

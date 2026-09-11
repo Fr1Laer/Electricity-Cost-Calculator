@@ -1,0 +1,21 @@
+﻿<Window x:Class="ElectricityCost.WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ElectricityCost.WpfApp"
+        mc:Ignorable="d"
+        Title="Elektrienergia kulude kalkulaator" Height="331" Width="231" Topmost="True" SizeToContent="WidthAndHeight">
+    <Grid>
+        <TextBox x:Name="PowerTextBox" HorizontalAlignment="Left" Margin="17,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Sisestage seadme võimsus (W):" HorizontalAlignment="Left" Margin="17,15,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Sisestage kasutustunnid päevas:" HorizontalAlignment="Left" Margin="17,79,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="UsageHoursTextBox" HorizontalAlignment="Left" Margin="17,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Sisestage energia hind (€/kWh):" HorizontalAlignment="Left" Margin="17,146,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="EnergyPriceTextBox" HorizontalAlignment="Left" Margin="17,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Kulud eurodes 30 päeva jooksul: " HorizontalAlignment="Left" Margin="17,244,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="CostTextBox" HorizontalAlignment="Left" Margin="17,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True" RenderTransformOrigin="0.269,0.59"/>
+        <Button x:Name="CalculateButton" Content="Calculate" HorizontalAlignment="Left" Margin="17,208,0,0" VerticalAlignment="Top" Width="120" Click="Calculate_Click"/>
+
+    </Grid>
+</Window>
